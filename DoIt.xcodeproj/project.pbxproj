@@ -13,6 +13,7 @@
 		A49D70B6200B95A20054AFB1 /* DoIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A49D70B4200B95A20054AFB1 /* DoIt.xcdatamodeld */; };
 		A49D70B8200B95A20054AFB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A49D70B7200B95A20054AFB1 /* Assets.xcassets */; };
 		A49D70BB200B95A20054AFB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49D70B9200B95A20054AFB1 /* LaunchScreen.storyboard */; };
+		A49D70C3200B9C460054AFB1 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49D70C2200B9C460054AFB1 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A49D70B7200B95A20054AFB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A49D70BA200B95A20054AFB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A49D70BC200B95A20054AFB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A49D70C2200B9C460054AFB1 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				A49D70AD200B95A20054AFB1 /* AppDelegate.swift */,
 				A49D70AF200B95A20054AFB1 /* ViewController.swift */,
+				A49D70C2200B9C460054AFB1 /* Task.swift */,
 				A49D70B1200B95A20054AFB1 /* Main.storyboard */,
 				A49D70B7200B95A20054AFB1 /* Assets.xcassets */,
 				A49D70B9200B95A20054AFB1 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A49D70C3200B9C460054AFB1 /* Task.swift in Sources */,
 				A49D70B6200B95A20054AFB1 /* DoIt.xcdatamodeld in Sources */,
 				A49D70B0200B95A20054AFB1 /* ViewController.swift in Sources */,
 				A49D70AE200B95A20054AFB1 /* AppDelegate.swift in Sources */,
