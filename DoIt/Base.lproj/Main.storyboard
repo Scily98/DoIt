@@ -56,7 +56,52 @@
                     <view key="view" contentMode="scaleToFill" id="Vri-Y4-zLT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="baU-mL-QT4">
+                                <rect key="frame" x="162.5" y="84" width="50" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YSm-Mv-KR9">
+                                <rect key="frame" x="40" y="115" width="295" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Important:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zGg-jp-9QW">
+                                <rect key="frame" x="147.5" y="194" width="80" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="49U-JW-euG">
+                                <rect key="frame" x="163" y="261" width="51" height="31"/>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Eb-lL-cRV">
+                                <rect key="frame" x="172" y="342" width="30" height="30"/>
+                                <state key="normal" title="Add"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="baU-mL-QT4" firstAttribute="centerX" secondItem="Vri-Y4-zLT" secondAttribute="centerX" id="2sn-Cr-WXp"/>
+                            <constraint firstItem="49U-JW-euG" firstAttribute="top" secondItem="zGg-jp-9QW" secondAttribute="bottom" constant="10" id="4HV-nJ-dxL"/>
+                            <constraint firstItem="3Eb-lL-cRV" firstAttribute="top" secondItem="49U-JW-euG" secondAttribute="bottom" constant="88" id="4S0-Gj-aaE"/>
+                            <constraint firstItem="zGg-jp-9QW" firstAttribute="centerX" secondItem="Vri-Y4-zLT" secondAttribute="centerX" id="4uL-ae-Foq"/>
+                            <constraint firstItem="YSm-Mv-KR9" firstAttribute="top" secondItem="baU-mL-QT4" secondAttribute="bottom" constant="23" id="7IS-QX-KsP"/>
+                            <constraint firstItem="YSm-Mv-KR9" firstAttribute="centerX" secondItem="Vri-Y4-zLT" secondAttribute="centerX" id="7Jw-IL-bR4"/>
+                            <constraint firstItem="YSm-Mv-KR9" firstAttribute="leading" secondItem="NtE-pm-1pt" secondAttribute="leading" constant="40" id="ASP-eG-PeL"/>
+                            <constraint firstItem="NtE-pm-1pt" firstAttribute="trailing" secondItem="YSm-Mv-KR9" secondAttribute="trailing" constant="40" id="I2n-aQ-kl3"/>
+                            <constraint firstItem="49U-JW-euG" firstAttribute="centerX" secondItem="Vri-Y4-zLT" secondAttribute="centerX" id="YQW-Xo-fFK"/>
+                            <constraint firstItem="YSm-Mv-KR9" firstAttribute="top" secondItem="baU-mL-QT4" secondAttribute="bottom" constant="10" id="kQ6-80-h32"/>
+                            <constraint firstItem="baU-mL-QT4" firstAttribute="top" secondItem="NtE-pm-1pt" secondAttribute="top" constant="20" id="pH7-Uk-JOW"/>
+                            <constraint firstItem="49U-JW-euG" firstAttribute="top" secondItem="zGg-jp-9QW" secondAttribute="bottom" constant="46" id="rtI-yJ-bUS"/>
+                            <constraint firstItem="3Eb-lL-cRV" firstAttribute="top" secondItem="49U-JW-euG" secondAttribute="bottom" constant="50" id="v88-ut-DMk"/>
+                            <constraint firstItem="zGg-jp-9QW" firstAttribute="top" secondItem="YSm-Mv-KR9" secondAttribute="bottom" constant="40" id="vAg-93-GhC"/>
+                            <constraint firstItem="3Eb-lL-cRV" firstAttribute="centerX" secondItem="Vri-Y4-zLT" secondAttribute="centerX" id="xrn-YY-48t"/>
+                            <constraint firstItem="zGg-jp-9QW" firstAttribute="top" secondItem="YSm-Mv-KR9" secondAttribute="bottom" constant="49" id="yvp-Ws-tCW"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="NtE-pm-1pt"/>
                     </view>
                 </viewController>
